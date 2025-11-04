@@ -1,5 +1,6 @@
 # App_runner
 Launches any console application and saves all its standard output to a log file. In this case, standard output will also work, it is not just a redirection.
+
 It is possible to limit the running time of a console application - this is necessary for applications that run for a very long time.
 
 if you just run `app_runner.exe`
