@@ -19,7 +19,7 @@ if you just run `app_runner.exe`
   app_runner.exe -7:30 my_app --param1 value1
   app_runner.exe -0.5 python long_script.py
 ```
-\n
+<br>
 если вы запустите с помощью `app_runner.exe` архиватор 7z: `app_runner.exe 7z.exe a main.7z main.py`
 то программа запишет весь стандартный вывод в лог-файл `app_log_20251104_200152.txt`
 ```
