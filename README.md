@@ -51,12 +51,12 @@ Everything is Ok
 Код возврата: 0
 ```
 
-Если вы хотите, чтобы ваша программа работала не более указанного количества часов:
-Запустите её следующим образом; она будет работать не более 2 часов 30 минут: `app_runner.exe -2.5 my_app.exe`
+If you want your program to run for no more than a specified number of hours:
+Run it like this; it runs for a maximum of 2 hours and 30 minutes: `app_runner.exe -2.5 my_app.exe`
 
-Если вы хотите, чтобы ваша программа работала всю ночь и остановилась утром:
-Запустите её следующим образом; она будет работать до 7 утра: `app_runner.exe -7:00 my_app.exe`
+If you want your program to run all night and stop in the morning:
+Run it like this; it runs until 7 AM: `app_runner.exe -7:00 my_app.exe`
 
-Чтобы остановить запущенную программу, нажмите Ctrl+C.
+To stop a running program, press Ctrl+C
 
-Во всех случаях в файле журнала будет указана причина остановки: завершение работы программы, прерывание пользователем или прерывание по времени.
+In all cases, the log file will indicate the reason for the stop: program termination, user interruption, or time-based interruption.
